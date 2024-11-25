@@ -8,3 +8,9 @@
 tmux 配置文件在`.tmux.conf`，如果更改了配置想生效，使用`tmux source ~/.tmux.conf`  
 
 ## 3. git 配置
+### 3.1 如何提交git commit
+```
+git add files
+git commit -m "coments"
+git push
+```
