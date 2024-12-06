@@ -14,3 +14,10 @@ git add files
 git commit -m "coments"
 git push
 ```
+
+## 4. Linux 常用指令
+```
+sudo hostname -b newname //change hostname
+ssh-keygen -t rsa -b 2048 -C "fusion_server_167.144" ## 生成密钥，存放位置
+ssh-copy-id xe@10.166.167.140 // 将密钥copy 到其他server
+```
